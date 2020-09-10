@@ -1,6 +1,87 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body, td, a, p, .h {
+    font-family: arial,sans-serif;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+ol, ul{
+    list-style: none;
+}
+
+body {
+	line-height: 1;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
 .google-main{
     text-align: center;
-    padding-top: 109px;
+    padding-top: 200px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    padding-top: 20px;
+}
+
+ul{
+    padding-left: 20px;
+}
+
+.right{
+    margin-right: 20px;
+    padding-right: 12px;
+}
+
+.left{
+    position: relative;
+    margin: 0 0 0 5px;
+}
+
+#sign-in{
+    background-color: #3352ff;
+    color: white;
+    font-weight: bold;
+    padding: 5px 12px;
+    border: none;
+    vertical-align: middle;
+}
+
+#google-apps{
+    display: inline-block;
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
 }
 
 .search-form{
@@ -22,5 +103,71 @@
     border: 1px solid #dfe1e5;
     border-radius: 24px;
     height: 45px;
-    margin: 10px auto;
+    margin: 27px auto;
+}
+
+.search-buttons button{
+    background-color: #f2f2f2;
+    color: #5F6368;
+    margin: 5px 4px;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    padding: 0px 15px;
+    height: 36px;
+    font-size: 14px;
+    text-align: center;
+    min-width: 54px;
+}
+
+.search-image{
+    display: block;
+    width: 3%;
+    height: 40%;
+    opacity: 70%;
+    margin-left: 15px;
+}
+
+.mikro{
+    display: block;
+    width: 2.5%;
+    height: 45%;
+    margin-right: 20px;
+}
+
+
+li{
+    display: inline;
+    padding: 0 10px;
+    font-size: 13px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    opacity: 75%;
+}
+
+#about{
+    vertical-align: middle;
+}
+
+#store{
+    vertical-align: middle;
+}
+
+#footer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #f2f2f2;
+    line-height: 42px;
+}
+
+#footer a{
+    color: #5f6368;
+    font-size: 14px;
 }
