@@ -1,5 +1,26 @@
-.logo{
-    margin: auto;
-    width: 40%;
+.google-main{
+    text-align: center;
     padding-top: 109px;
+}
+
+.search-form{
+    text-align: center;
+}
+
+.search-input{
+    width: 500px;
+    height: 100%;
+    font-size: 16px;
+    border: none;
+}
+
+.search-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 585px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    height: 45px;
+    margin: 10px auto;
 }
